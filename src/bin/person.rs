@@ -13,7 +13,7 @@ pub enum Color {
 }
 
 impl Person {
-    pub fn new(name: &str, age: u32, children: u32, favorite_color:Color) -> Person {
+    pub fn new(name: &str, age: u32, children: u32, favorite_color: Color) -> Person {
         Person {
             name: name.to_string(),
             age,
