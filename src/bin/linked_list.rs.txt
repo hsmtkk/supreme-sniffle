@@ -21,6 +21,6 @@ fn main() {
     if let Some(ref mut v) = ll.next {
         v.add_up(10);
     }
-    let v:Vec<String> = Vec::new();
+    let v: Vec<String> = Vec::new();
     println!("{:?}", ll);
 }
